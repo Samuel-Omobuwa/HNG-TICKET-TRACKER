@@ -38,8 +38,8 @@ export default function TicketReady({ ticketData, onBookAnother }: TicketReadyPr
             <QRCodeSVG value={JSON.stringify(ticketData)} size={100} level="H" includeMargin={true} />
             <div className="text-left text-black">
               <h3 className="font-bold text-lg">Techember Fest &apos;25</h3>
-              <p className="text-sm text-gray-600">{new Date() }</p>
-              <p className="text-sm text-gray-600">54 Bambose street, Ikeja, Lagos</p>
+              <p className="text-sm text-gray-600">{new Date().toString() }</p>
+              <p className="text-sm text-gray-600">Bariga Lagos Lagos</p>
             </div>
           </div>
         </div>
